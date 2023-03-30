@@ -1,0 +1,18 @@
+﻿Przypadki użycia:
+-katalogowanie po danej kategorii
+-Sprawdzenie metadanych danego zdjęcia
+-Edycja metadanych
+-Wyświetlanie zdjęć
+
+
+Wymagania użytkownika:
+Użytkownik chce program w którym będzie miał możliwość katalogowania zdjęć z danego katalogu po wybranej metadanie i mógł je edytować.
+
+
+Wymagania systemowe:
+Program ma pokazać okno z katalogowymi zdjęciami po wybranej kategorii jaką wybierze użytkownik. Program ma mieć możliwość podglądu metadanych wybranego zdjęcia jak i możliwość edycji tych danych. Program także ma mieć możliwość wyświetlania zdjęć jak i ich podglądu. 
+
+
+Wymagania funkcjonalne:
+-Użytkownikowi po wciśnięciu przycisku START pokaże się okno do wyboru katalogu
+-
