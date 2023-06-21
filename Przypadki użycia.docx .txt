@@ -1,18 +1,33 @@
-﻿Przypadki użycia:
--katalogowanie po danej kategorii
--Sprawdzenie metadanych danego zdjęcia
--Edycja metadanych
--Wyświetlanie zdjęć
+Opis projektu
+
+	Celem projektu jest stworzenie aplikacji do pokazania wszystkich zdjęć z danego katalogu oraz możliwość podglądu i edycji metadanych tych zdjęć. Po uruchomieniu aplikacji użytkownik będzie miał możliwość wybrania katalogu z którego zostanie wyświetlone zdjęcie i będzie przycisk do przewijania zdjęć oraz będzie przycisk do podglądu i edycji metadanych pokazanego wcześniej zdjęcia. Aplikacja zostanie napisana w języku Python oraz będzie korzystał z pakietu PyQt5.
+
+	Program ma dać możliwość użytkownikom szybki podgląd zdjęć z katalogu oraz szybką i łatwą edycję metadanych zdjęć.
+
+Wymagania użytkownika
+
+Możliwość wyboru z którego katalogu mają być wczytane zdjęcia do aplikacji
+Intuicyjny i łatwy w obsłudze interfejs
+Możliwość przewijania zdjęć za pomocą przycisków
+Możliwość odczytania metadanych zdjęcia oraz jej edycja
+
+Wymagania systemowe
+
+	Po uruchomieniu programu użytkownikowi powinno pojawić się okno z przyciskiem startu, które służy do wybrania katalogu z zdjęciami do pokazania. Po wybraniu katalogu, użytkownikowi powinno pojawić się okno z zdjęciem z wybranego katalogu oraz przyciski do zmiany zdjęć i edycji metadanych danego zdjęcia. Użytkownik nie powinien mieć problemu z zrozumieniem do czego służą przyciski poprzez odpowienie ich oznaczenie. Aby program odpowiednio zmodyfikował metadane muszą zostać wpisane wszystkie opcje.
+
+	Program powinien działać do momentu, aż użytkownik sam nie wyłączy programu poprzez kliknięcia przycisku “X” w górnym prawym rogu okna.
+
+Wymagania funkcjonalne
+
+Program po natrafieniu na problem, w której użytkownik wybiera katalog bez zdjęć bądź podczas wyboru katalogu zamyka okno, powinien wyświetlić stosowny komunikat o niepoprawnym użytkowaniu bądź wyświetlić błąd w konsoli.
+
+Wymagania niefunkcjonalne
+
+	Program będzie korzystał z tylko potrzebnych mu zasobów obliczeniowych stacji roboczej. Także będzie możliwa obsługa programu bez dostępu do sieci oraz o każdej porze dnia.
+
+Przypadki użycia
+
+	Program po uruchomieniu wyświetli okno z przyciskiem start, który po wciśnięciu otworzy okno z możliwością wybrania katalogu z zdjęciami do otworzenia. Jeśli użytkownik wybierze katalog bez zdjęć bądź zamknie okno, program zakończy się niepowodzeniem i pokaże błąd. Po wybraniu katalogu otworzy się okno z jednym z zdjęć z wybranego katalogu oraz trzy przyciski, dwa do kierunku zmiany zdjęć oraz jeden do modyfikacji metadanych. Po wciśnięciu na jeden z dwóch przycisków do zmiany zdjęcia pokaże się nowe zdjęcie z wcześniej wybranego katalogu. Po naciśnięciu na przycisk do edycji metadanych pokaże się okno w którym będzie możliwość wpisania nowych wartości poszczególnych metadanych. Jeśli użytkownik zostawi jedną z metadanych bez wartości program zakończy się niepowodzeniem i pokaże błąd. Jeśli użytkownik wypełni wszystkie metadane po czym zakończy program przyciskiem, program stworzy nowe zdjęcie z zaktualizowanymi metadanymi wprowadzonymi przez użytkownika.
 
 
-Wymagania użytkownika:
-Użytkownik chce program w którym będzie miał możliwość katalogowania zdjęć z danego katalogu po wybranej metadanie i mógł je edytować.
 
-
-Wymagania systemowe:
-Program ma pokazać okno z katalogowymi zdjęciami po wybranej kategorii jaką wybierze użytkownik. Program ma mieć możliwość podglądu metadanych wybranego zdjęcia jak i możliwość edycji tych danych. Program także ma mieć możliwość wyświetlania zdjęć jak i ich podglądu. 
-
-
-Wymagania funkcjonalne:
--Użytkownikowi po wciśnięciu przycisku START pokaże się okno do wyboru katalogu
--
